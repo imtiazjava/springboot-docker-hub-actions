@@ -11,10 +11,9 @@ public class EmsappApplication {
 
 	@GetMapping("/msg")
 	public String welcome() {
-		return "Welcome To Home Page";
+		return "Welcome To Home Page!";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(EmsappApplication.class, args);
 	}
-
 }
